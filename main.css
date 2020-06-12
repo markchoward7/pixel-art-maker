@@ -1,0 +1,184 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: olive;
+    color: whitesmoke;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1em;
+    padding: 3em;
+}
+
+.card {
+    background-color: powderblue;
+    grid-column-start: 2;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}
+
+.canvas {
+    grid-column-start: 2;
+}
+
+.canvas td {
+    padding: -1px;
+    margin: -1px;
+    height: 14px;
+    width: 10px;
+    background-color: white;
+}
+
+.pallete {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.pallete td {
+    height: 20px;
+    width: 20px;
+}
+
+.current {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.current-color {
+    background-color: white;
+    grid-column-start: 2;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+.color-picker {
+    grid-column-start: 2;
+}
+.color-picker input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+
+.current-label {
+    grid-column-start: 1;
+    text-align: right;
+}
+
+.color {
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.color#black {
+    background-color: black;
+}
+.color#darkgrey {
+    background-color: darkgrey;
+}
+.color#lightgrey {
+    background-color: lightgrey;
+}
+.color#whitesmoke {
+    background-color: whitesmoke;
+}
+.color#white {
+    background-color: white;
+}
+.color#maroon {
+    background-color: maroon;
+}
+.color#brown {
+    background-color: brown;
+}
+.color#lightcoral {
+    background-color: lightcoral;
+}
+.color#tan {
+    background-color: tan;
+}
+.color#darkred {
+    background-color: darkred;
+}
+.color#red {
+    background-color: red;
+}
+.color#orangered {
+    background-color: orangered;
+}
+.color#orange {
+    background-color: orange;
+}
+.color#yellow {
+    background-color: yellow;
+}
+.color#greenyellow {
+    background-color: greenyellow;
+}
+.color#yellowgreen {
+    background-color: yellowgreen;
+}
+.color#green {
+    background-color: green;
+}
+.color#darkgreen {
+    background-color: darkgreen;
+}
+.color#teal {
+    background-color: teal;
+}
+.color#darkblue {
+    background-color: darkblue;
+}
+.color#blue {
+    background-color: blue;
+}
+.color#lightblue {
+    background-color: lightblue;
+}
+.color#purple {
+    background-color: purple;
+}
+.color#salmon {
+    background-color: salmon;
+}
+.color#pink {
+    background-color: pink;
+}
+.color#cyan {
+    background-color: cyan;
+}
+.color#olivedrab {
+    background-color: olivedrab;
+}
+.color#darkslategrey {
+    background-color: darkslategrey;
+}
+.color#orchid {
+    background-color: orchid;
+}
+.color#magenta {
+    background-color: magenta;
+}
+.color#lightslategrey {
+    background-color: lightslategrey;
+}
